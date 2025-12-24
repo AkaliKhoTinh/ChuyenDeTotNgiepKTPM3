@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QuanlyMongoDB.jnlp">
+  <information>
+    <title>QuanlyMongoDB</title>
+    <vendor>Admin</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="QuanlyMongoDB.jar" size="28284" download="eager" />
+    <jar href="lib\fontawesomefx-8.2.jar" size="180341" download="eager" />
+    <jar href="lib\mongo-java-driver-3.12.14.jar" size="2314903" download="eager" />
+    <jar href="lib\ojdbc14-10.2.0.2.0 - Copy.jar" size="1545954" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="QuanlyMongoDB" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="quanlymongodb.QuanlyMongoDB"  name="QuanlyMongoDB" />
+  <update check="always"/>
+</jnlp>
